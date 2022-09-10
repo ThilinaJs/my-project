@@ -1,3 +1,4 @@
+print("Gaussian Elimination Method")
 import numpy as np
 # Forward Elimination
 

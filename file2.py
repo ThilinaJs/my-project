@@ -25,7 +25,8 @@ def forward_elimination(A,b,n):
       n=A.shape[0]
 # Check for zero diagonal elements      
       if any(np.diag(A)==0):
-        raise ZeroDivisionError((''))
+        raise ZeroDivisionError(('Division by zero will occure; '
+      ' pivoting currently not supported'))
         A,b =forward_elimination(A,b,n)
 
       return back_substitution(A,b,n)

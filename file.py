@@ -5,7 +5,7 @@ diagonalc = np.diag(np.abs(A))
 offdiagonal = np.sum(np.abs(A),axis = 1)-diagonalc
 
 if np.all(diagonalc > offdiagonal):
-  print("Matrix is ")
+  print("Matrix is diagonally dominant")
 
 else:
   print()

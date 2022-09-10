@@ -1,3 +1,4 @@
+# Solving systems of linear equations
 A = [[8,3,-3],[-2,-8,5],[3,5,10]]
 
 diagonalc = np.diag(np.abs(A))
